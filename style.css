@@ -31,4 +31,29 @@
   border: 2px #ebfffc dashed;
   border-radius: 10px;
   margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  
+  
+}
+
+.lists{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ff2963;
+  padding: 12px 15px;
+  width: 250px;
+  height: 60px;
+  cursor: grab;
+  column-gap: 15px;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  
+}
+.icon{
+  width: 15px;
 }
